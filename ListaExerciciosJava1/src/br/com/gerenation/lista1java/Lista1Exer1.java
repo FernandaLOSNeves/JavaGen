@@ -2,7 +2,7 @@ package br.com.gerenation.lista1java;
 
 import javax.swing.JOptionPane;
 
-public class Exer1Lista1Java {
+public class Lista1Exer1 {
 
 	public static void main(String[] args) {
 		// Faça um programa que receba três inteiros e diga qual deles é o maior.
@@ -18,7 +18,7 @@ public class Exer1Lista1Java {
 			JOptionPane.showMessageDialog(null, "O SEGUNDO número que você digitou é o maior e é igual a " + numero2 + ".");
 		}
 		else if (numero3 > numero1 && numero3 > numero2) {
-			JOptionPane.showMessageDialog(null, "O TERCEIRO número que você digitou é o maior e é igual a" + numero3 + ".");
+			JOptionPane.showMessageDialog(null, "O TERCEIRO número que você digitou é o maior e é igual a " + numero3 + ".");
 		}
 		else {
 				JOptionPane.showMessageDialog(null, "Talvez você tenha digitado números iguais ou não inteiros.");
