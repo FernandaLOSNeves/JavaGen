@@ -1,4 +1,4 @@
-package br.com.generation.aula2;
+package br.com.generation.aulas;
 
 import javax.swing.JOptionPane;
 
