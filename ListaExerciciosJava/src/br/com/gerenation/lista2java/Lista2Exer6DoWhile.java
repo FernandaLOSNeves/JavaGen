@@ -1,3 +1,5 @@
+package br.com.gerenation.lista2java;
+
 import java.util.Scanner;
 
 public class Lista2Exer6DoWhile {
@@ -24,3 +26,4 @@ public class Lista2Exer6DoWhile {
 	}
 
 }
+
