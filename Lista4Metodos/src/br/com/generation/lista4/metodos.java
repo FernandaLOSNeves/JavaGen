@@ -4,41 +4,24 @@ import java.util.Scanner;
 
 public class metodos {
 	
-	public static void metodo01() {
+	static void metodo01(double ValorCompra, int quantidade) {
 		
-		double ValorCompra= 40;
-		int quantidade= 3;
+		Scanner leia = new Scanner (System.in);
 		
-		Scanner ler = new Scanner(System.in);
-		
-		System.out.print("Qual a quantidades de ítens que o cliente comprou? ");
-		ValorCompra = ler.nextDouble();
-		System.out.print("Quanto custa cada ítem?  R$");
-		quantidade = ler.nextInt();
+		System.out.print("Digite o valor do produto R$:");
+		ValorCompra = leia.nextDouble();
+		System.out.print("Digite a quantidade de itens: ");
+		quantidade = leia.nextInt();
 		System.out.println();
 		
-		System.out.println("O Cliente comprou" + quantidade + " intens de R$" + ValorCompra + "reais.");
+		System.out.println("O Cliente comprou " + quantidade + " intens de R$" + ValorCompra + " reais,");
 		System.out.println("Totalizando R$" + quantidade*ValorCompra + " reais em compra.");
 		System.out.println();
 	}
 	
-	public static void metodo02() {
+	public static void main (String[] args) {
 		
-		metodo01();
-		
-		int resposta;
-		Scanner leia = new Scanner(System.in);
-		System.out.println("A venda foi maior que R$200,00 reais? 1 - Sim  2 - Não");
-		resposta = leia.nextInt();
-		
-		if (resposta == 1) {
-			System.out.println("Cliente nível 2");
-		}else {
-				System.out.println("Cliente nível 1");
-			}
-		}
-	
-	public static void metodo03() {
-		System.out.println("oi.");
+	metodo01(0,0);
 	}
+	
 }

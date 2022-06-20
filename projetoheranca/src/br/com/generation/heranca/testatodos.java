@@ -1,17 +1,17 @@
 package br.com.generation.heranca;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class testatodos {
 	
 	public static void main(String[] args) {
 		
-		Scanner entrada = new Scanner(System.in);
+		//Scanner entrada = new Scanner(System.in);
 		
 		Professor prof1 = new Professor();//construindo objeto professor. o objeto é o prof1, baseado na classe Professor
 		
 		System.out.println("Nome do professor: ");
-		prof1.setNome(entrada.next());
+		//prof1.setNome(entrada.next());
 		prof1.setIdade(25);
 		prof1.setEndereço("Rua das Nações, 255 - SP");
 		

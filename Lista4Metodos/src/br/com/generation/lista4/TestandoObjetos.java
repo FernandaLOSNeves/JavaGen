@@ -16,7 +16,6 @@ public static void main(String[] args) {
 			System.out.println("Estado (UF): " + cliente1.estado);
 			System.out.println("Cidade: " + cliente1.cidade);
 			
-			
-		}
+	}		
 }
 	
